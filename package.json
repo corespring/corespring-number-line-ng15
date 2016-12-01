@@ -1,0 +1,11 @@
+{
+  "name": "corespring-number-line-ng15",
+  "version": "0.0.1",
+  "private": true,
+  "main": "src/index.js",
+  "dependencies": {
+    "corespring-legacy-number-line": "corespring/corespring-legacy-number-line",
+    "less": "^2.7.1",
+    "lodash": "^4.15.0"
+  }
+}

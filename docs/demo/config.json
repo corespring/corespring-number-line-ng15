@@ -1,0 +1,51 @@
+{
+  "pies": [
+    {
+      "id": "1",
+      "pie": {
+        "name": "corespring-number-line-ng15",
+        "version": "1.0.0"
+      },
+      "correctResponse": [
+        {
+          "type": "point",
+          "pointType": "full",
+          "domainPosition": 0.125
+        }
+      ],
+      "feedback": {
+        "correctFeedbackType": "none",
+        "partialFeedbackType": "none",
+        "incorrectFeedbackType": "none"
+      },
+      "allowPartialScoring": false,
+      "partialScoring" : [
+        {}
+      ],
+      "model": {
+        "config": {
+          "domain": [-5, 5],
+          "maxNumberOfPoints": 20,
+          "tickFrequency": 11,
+          "showMinorTicks": true,
+          "snapPerTick": 1,
+          "tickLabelOverrides": [],
+          "initialType": "PF",
+          "exhibitOnly": false,
+          "availableTypes": {
+            "PF": true,
+            "PE": true,
+            "LFF": true,
+            "LEF": true,
+            "LFE": true,
+            "LEE": true,
+            "RFN": true,
+            "RFP": true,
+            "REN": true,
+            "REP": true
+          }
+        }
+      }
+    }
+  ]
+}
