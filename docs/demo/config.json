@@ -1,11 +1,14 @@
 {
-  "pies": [
+  "langs": [
+    "en-US"
+  ],
+  "elements": {
+    "corespring-number-line-ng15": "../.."
+  },
+  "models": [
     {
       "id": "1",
-      "pie": {
-        "name": "corespring-number-line-ng15",
-        "version": "1.0.0"
-      },
+      "element": "corespring-number-line-ng15",
       "correctResponse": [
         {
           "type": "point",
